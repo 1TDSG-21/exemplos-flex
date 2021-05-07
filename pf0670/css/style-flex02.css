@@ -1,18 +1,19 @@
 .box-container {
     display: flex;
-    flex-direction: column-reverse;
-    /*
     flex-direction: row;
-    flex-direction: row-reverse;
-    flex-direction: column;
-    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+    /*
+    Comentando a largura fluida.
+    flex-wrap: nowrap;<-- padrão
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     */
 }
 
 .box {
     display: block;
-    width: 10vw;
-    min-width: 5vw;
+    /*width: 10vw;
+    min-width: 5vw;*/
     height: 15vh;
     margin: 3vh 3vw;
     padding: 1vh 1vw;
