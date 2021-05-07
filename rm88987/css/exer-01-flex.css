@@ -1,0 +1,51 @@
+.box-pai {
+    display: flex;
+    flex-direction:column;
+    
+}
+
+.box{
+    width:10vw;
+    min-width: 5vw;
+    height: 15vw;
+    margin: 3vh 3vw;
+    padding: 1vh 1vw;
+    display: block;
+}
+
+.box-child-1{
+    background-color: #00ffff;
+    width:auto;
+    height: 9vw;
+}
+
+.box-child-2{
+    background-color: #ff7f50 ;
+    width: auto;
+    height: 20vw;
+}
+
+.box-child-3{
+    background-color:#a52a2a;
+    width: auto;
+    height: 20vw;
+}
+
+.box-child-4{
+    background-color:#006400;
+    width: auto;
+    height: 20vw;
+
+}
+
+.box-child-5{
+    background-color: aliceblue;
+    height: 15vw;
+    margin: 2vh 1vw;
+    width:15vw;
+    
+}
+.box-child-6{
+    
+
+}
