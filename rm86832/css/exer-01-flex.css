@@ -6,7 +6,7 @@
 }
 
 .box-child-1{
-    background-color: blue;
+    background-color: #0000ff;
     flex-basis: 100vw;
     padding: 1vh 1vw;
     height: 15vh;
@@ -14,7 +14,7 @@
 }
 
 .box-child-2{
-    background-color: crimson;
+    background-color: #dc143c;
     padding: 1vh 1vw;
     display: flex;
     flex-direction: row;
@@ -40,7 +40,7 @@
 
 
 .box-child-3{
-    background-color: green;
+    background-color: #008000;
     padding: 1vh 1vw;
     display: flex;
     flex-direction: row;
@@ -81,7 +81,7 @@
 }
 
 .box-child-4{
-    background-color: yellow;
+    background-color: #800080;
     flex-basis: 100vw;
     padding: 1vh 1vw;
     height: 20vh;
