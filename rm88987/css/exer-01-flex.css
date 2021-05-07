@@ -1,0 +1,8 @@
+.box-container {
+    display: flex;
+    flex-direction: row;
+
+}
+.box-pai{
+    background-color: #00ffff;
+}
