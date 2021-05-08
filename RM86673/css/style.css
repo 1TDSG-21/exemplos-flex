@@ -1,0 +1,42 @@
+h1{
+    font-size: 3vw;
+}
+.box-pai{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    background-color: bisque;
+    width: 55vw;
+    margin-right: 8px;
+    height: 87vh;
+    justify-content: space-around;
+}
+.box-box-child-1,.box-box-child-2, .box-box-child-3, .box-box-child-4{
+    width: 50vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 1%;
+    background-color: rgb(11, 125, 255);
+}
+.box-box-child-1{
+    width: 50vw;
+    height: 10vh;
+}
+
+.box-1-box-child-5,.box-1-box-child-6,.box-1-box-child-7,.box-1-box-child-8,.box-1-box-child-9,.box-1-box-child-10{
+    background-color: blueviolet;
+    flex-wrap: wrap;
+    width: 22%;
+    height: 80%;
+}
+.box-1-box-child-5{
+    width: 68%;
+}
+.box-1-box-child-6{
+    width: 25%;
+}
+
+
