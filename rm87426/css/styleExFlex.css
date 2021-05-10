@@ -6,10 +6,9 @@
 .box-pai {
     display: flex;
     flex-direction: column;
-    background-color: beige;
+    background-color: lightgray;
     
 }
-
 .box{
     width:10vw;
     min-width: 5vw;
@@ -19,75 +18,66 @@
     display: block;
     
 }
-
 .box-child-1{
-    border: solid 0.3vw red;
-    width:auto;
+    border: thin solid red;
     height: 9vw;
+    width: auto;
     
 }
-
 .box-child-2{
-    border: solid 0.3vw red;
-    width: auto;
+    border: thin solid red;
     height: 20vw;
     display: flex;
     flex-direction: row;
-  
+    width: auto;
 }
 .box-child-5{
-    border: solid 0.3vw red;
+    border: thin solid red;
     height: 15vw;
-    margin: 2vh 1vw;
+    margin: 3vh 1vw;
     width:15vw;
     
 }
 .box-child-6{
-    border: solid 0.3vw red;
+    border: thin solid red;
     height: 15vw;
-    margin: 2vh 1vw;
+    margin: 3vh 1vw;
     width:70vw;
-}    
+}
 .box-child-3{
-    border: solid 0.3vw red;
+    border: thin solid red;
     width: auto;
     height: 20vw;
     display: flex;
     flex-direction: row;
-}
+}    
 .box-child-7{
-    border: solid 0.3vw red;
+    border: thin solid red;
     height: 15vw;
-    margin: 1vh 1vw;
-    width:25vw;
+    margin: 3vh 3vw;
+    width:30vw;
 }
 .box-child-8{
-    border: solid 0.3vw red;
+    border: thin solid red;
     height: 15vw;
-    margin: 1vh 1vw;
-    width:25vw;
+    margin: 3vh 3vw;
+    width:30vw;
 }
 .box-child-9{
-    border: solid 0.3vw red;
+    border: thin solid red;
     height: 15vw;
-    margin: 1vh 1vw;
-    width:25vw;
+    margin: 3vh 3vw;
+    width:30vw;
 }
 .box-child-10{
-    border: solid 0.3vw red;
+    border: thin solid red;
     height: 15vw;
-    margin: 1vh 1vw;
-    width:25vw;
+    margin: 3vh 3vw;
+    width:30vw;
 }
-
 .box-child-4{
-    border: solid 0.3vw red;
+    border: thin solid red;
     width: auto;
     height: 20vw;
 
 }
-
-
-    
-
-
