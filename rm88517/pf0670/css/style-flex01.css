@@ -1,0 +1,36 @@
+.box-container {
+    display: flex;
+    flex-direction: column-reverse;
+    /*
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    */
+}
+
+.box {
+    display: block;
+    width: 10vw;
+    min-width: 5vw;
+    height: 15vh;
+    margin: 3vh 3vw;
+    padding: 1vh 1vw;
+    color: #fff;
+}
+
+.box-1 {
+    background-color: brown;
+}
+
+.box-2 {
+    background-color: cornflowerblue;
+}
+
+.box-3 {
+    background-color: darkgreen;
+}
+
+.box-4 {
+    background-color: darkslateblue;
+}
