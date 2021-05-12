@@ -1,0 +1,42 @@
+.box-pai{
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    display: flex;
+    margin: 3vh;
+    padding: 1vh;
+    border: 1px solid #8c00ff;
+}
+
+.box-1{
+    margin: 2vw;
+    border: 1px solid #8c00ff;
+}
+
+.box-child-1{
+    height: 5vw;
+}
+
+.box-child-4{
+    height: 10vw;
+}
+
+.box-child-5{
+    width: 2.8vw;
+}
+
+.box-child-6{
+    flex-grow: 4;
+    height: 8vw;
+}
+
+.box-child-5,
+.box-child-7,
+.box-child-8,
+.box-child-9,
+.box-child-10{
+    height: 8vw;
+    flex-grow: 1;
+}
