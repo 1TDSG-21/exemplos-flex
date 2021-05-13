@@ -1,0 +1,48 @@
+.box-container {
+    display: flex;
+    flex-direction: row;
+
+    /*
+    
+    */
+}
+
+.box {
+    display: block;
+    /*width: 10vw;
+    min-width: 5vw;*/
+    height: 10vh;
+    margin: 3vh 3vw;
+    padding: 1vh 1vw;
+    color: #fff;
+}
+
+.box-1 {
+    background-color: brown;
+    flex-basis: 10vw;
+    order: 5;
+}
+
+.box-2 {
+    background-color: cornflowerblue;
+    flex: 1 0 0;
+    order: 3;
+}
+
+.box-3 {
+    background-color: darkgreen;
+    flex-grow: 2;
+    order: 4;
+}
+
+.box-4 {
+    background-color: darkslateblue;
+    flex-grow: 1;
+    order: 2;
+}
+
+.box-5 {
+    background-color: midnightblue;
+    flex-grow: 4;
+    order: 1;
+}
