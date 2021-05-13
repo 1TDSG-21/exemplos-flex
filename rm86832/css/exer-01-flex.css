@@ -1,0 +1,89 @@
+.box-pai{
+
+    display: block;
+    padding: 1vh 1vw;
+    color: #fff;
+}
+
+.box-child-1{
+    background-color: #0000ff;
+    flex-basis: 100vw;
+    padding: 1vh 1vw;
+    height: 15vh;
+    margin: 3vh 3vw;
+}
+
+.box-child-2{
+    background-color: #dc143c;
+    padding: 1vh 1vw;
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    margin: 3vh 3vw;
+}
+
+.box-child-5{
+
+    background-color: #000000;
+    margin: 1vh 1vw;
+    flex: 20;
+
+}
+
+.box-child-6{
+
+    background-color: #000000;
+    margin: 1vh 1vw;
+    flex: 80;
+
+}
+
+
+.box-child-3{
+    background-color: #008000;
+    padding: 1vh 1vw;
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    margin: 3vh 3vw;
+}
+
+.box-child-7{
+
+    background-color:#000000;
+    margin: 1vh 1vw;
+    flex: 20;
+
+}
+
+.box-child-8{
+
+    background-color: #000000;
+    margin: 1vh 1vw;
+    flex: 20;
+
+}
+
+.box-child-9{
+
+    background-color: #000000;
+    margin: 1vh 1vw;
+    flex: 20;
+
+}
+
+.box-child-10{
+
+    background-color: #000000;
+    margin: 1vh 1vw;
+    flex: 20;
+
+}
+
+.box-child-4{
+    background-color: #800080;
+    flex-basis: 100vw;
+    padding: 1vh 1vw;
+    height: 20vh;
+    margin: 3vh 3vw;
+}

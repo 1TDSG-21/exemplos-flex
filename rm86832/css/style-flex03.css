@@ -1,0 +1,44 @@
+.box-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    /*
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: baseline;<---Necessario tirar a altura
+    align-items: stretch;
+    */
+}
+
+.box {
+    display: block;
+    width: 10vw;
+    min-width: 5vw;
+    /*height: 15vh;*/
+    margin: 3vh 3vw;
+    padding: 1vh 1vw;
+    color: #fff;
+}
+
+.box-1 {
+    background-color: brown;
+}
+
+.box-2 {
+    background-color: cornflowerblue;
+}
+
+.box-3 {
+    background-color: darkgreen;
+}
+
+.box-4 {
+    background-color: darkslateblue;
+}
